@@ -1,8 +1,10 @@
 # **Annex B**
 ## **Computational Thinking Exercise: "Smart Vending Machine"**
-Section: __________________________________ Score:____________
+Section: 9-Samat 
+Score:____________
 
-C# / Name:_________________________________ Date: _____________
+C# / Name: #15 - Yiel Craig R. Regencia
+Date: _____________
 
 ### **Scenario**
 
@@ -78,8 +80,7 @@ ELSE:
         DISPLAY “Stock too low and needs restocking.”
         DISPENSE payment
 
-
-        FOR every item_name, DO:
+FOR every item_name, DO:
             IF item_stock = 0 THEN:
                 DISPLAY “Alert! Item is out of stock. Please restock.”
 
