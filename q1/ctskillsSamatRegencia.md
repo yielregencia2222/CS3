@@ -58,23 +58,32 @@ INPUT payment
 
 
 #Machine algorithm
+SET total_cost = 0
+SET stock_available = TRUE
+
+FOR every unique item_to_dispense, DO:
+    IF item_stock < all of this item_amount THEN:
+        SET stock_available = FALSE
+        SET total_cost = total_cost + (item_price * item_amount)
+
 IF buy_confirm is TRUE and payment >= item_price of all item_to_dispense THEN:
     FOR every item_to_dispense, DO:
         IF item_stock > or = to item_amount THEN:
-            DISPLAY “item_bought of item_to_dispense bought!”
+            DISPLAY item_bought + “of” + item_to_dispense + “bought!”
             DO item_stock = item_stock - item_amount
             DISPENSE item_amount of item_to_dispense
-            DISPENSE payment - item_price of all item to dispense
+            DISPENSE payment - total_cost
         ELSE:
-            DISPLAY “Stock too low and needs restocking.”
+            DISPLAY “Transaction failed.”
+            IF stock_available = FALSE THEN:
+                DISPLAY “Stock too low and needs restocking.”
+                DISPENSE payment
 
 
         FOR every item_name, DO:
             IF item_stock = 0 THEN:
                 DISPLAY “Alert! Item is out of stok. Please restock.”
 
-ELSE:
-    DISPLAY “Transaction failed.”
 
 END
 ```
