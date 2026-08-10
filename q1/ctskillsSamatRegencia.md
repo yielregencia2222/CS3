@@ -1,9 +1,11 @@
 # **Annex B**
 ## **Computational Thinking Exercise: "Smart Vending Machine"**
 Section: 9-Samat 
+
 Score:____________
 
 C# / Name: #15 - Yiel Craig R. Regencia
+
 Date: _____________
 
 ### **Scenario**
