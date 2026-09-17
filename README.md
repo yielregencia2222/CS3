@@ -12,7 +12,7 @@ https://github.com/yielregencia2222/CS3/blob/main/q1/FA4_Samat_Panganiban_Quiamb
 SG5 Activity 1 (FA 5)
 
 Study Guide 6 (FA 6)
-
+https://github.com/yielregencia2222/CS3/blob/main/q1/q1_sg5_a1_samat_regencia.py
 
 Study Guide 7 (FA 7)
 
