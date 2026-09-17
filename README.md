@@ -7,6 +7,7 @@ SG2 Activity 3 (FA 2)
 
 
 My Own Class Diagram (FA 4)
+https://github.com/yielregencia2222/CS3/blob/main/q1/FA4_Samat_Panganiban_Quiambao_Regencia.png
 
 SG5 Activity 1 (FA 5)
 
