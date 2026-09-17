@@ -21,7 +21,8 @@ Study Guide 7 (FA 7):
 https://github.com/yielregencia2222/CS3/blob/main/q1/q1_sg7_samat_regencia.py
 
 **Extra**
-Car class code
+
+https://github.com/yielregencia2222/CS3/blob/main/q1/car_cs_extra.py
 
 # About Me
 My name is Yiel Craig R. Regencia
