@@ -7,7 +7,7 @@ SG2 Activity 3 (FA 2)
 
 
 My Own Class Diagram (FA 4)
-
+https://github.com/yielregencia2222/CS3/blob/main/README.md
 
 SG5 Activity 1 (FA 5)
 https://github.com/yielregencia2222/CS3/blob/main/q1_sg5_a1_samat_regencia.py
